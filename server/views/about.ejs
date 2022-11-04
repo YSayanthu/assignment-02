@@ -1,0 +1,51 @@
+<!--File Name: about.ejs
+Name: Sayanthana Yoganathan
+Student Id: 301152304
+Course: COMP-229 Sec.012-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include partials/header.ejs %>
+</head>
+<body>
+    <header>
+        <% include partials/main_nav.ejs %>
+    </header>
+
+<!--Main content-->
+<main class="container">
+<div class="jumbotron">
+  <h1 class="display-4">Welcome to the <%= title%> page!</h1>
+  
+</div>
+</main>
+<br>
+<center><h2>Introduction</h2></center>
+<img src="/Assets/images/sayanthana.jpg" class="profile" alt="picture" width="40%" height="50%"><br><br>
+
+<div id="aboutPara">
+<p> Hello readers! I am Sayanthana Yoganathan, I am a student of Software Engineering Technology in Artificial intelligence 
+    from Centennial College. I am originally from Sri Lanka. Before coming to Canada, I was enrolled in one of the university
+     in Srilanka but I wanted to study overseas.
+    Coming to Canada was the biggest step in my life and it changed my life completely. Watching movies, listening to music are my free
+    time activities. Coming to the software engineering
+    side, I gained some technical knowledge in few languages such as HTML5, CSS3, JavaScript, Express.js C#,Java 
+    Linux/Unix and MySQL. I hope to excel in this course and in my future as well. To know me more, please check out
+    my resume attached below.</p>
+    <br>
+    <span class="resumeLink"><a href="/Assets/Sayanthana_resume.docx"><i class="fa-solid fa-download"></i>  Sayanthana_Resume.docx</a></span>
+</div><br>
+
+<footer>
+    <% include partials/bottom_nav.ejs %>
+</footer>
+
+<script src = "/jquery/dist/jquery.min.js"></script>
+    <script src = "/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src = "/Script/app.js"></script> 
+
+</body>
+</html>
